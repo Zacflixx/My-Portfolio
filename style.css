@@ -10,6 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
+html{
+background: #c28264;
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -383,7 +386,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Some of my work";
 }
 .teams .carousel .card{
     background: #222;
@@ -446,7 +449,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Let's grab a bite";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -560,18 +563,37 @@ footer span a:hover{
     .about .about-content .left img{
         height: 350px;
         width: 350px;
+        background-color: white;
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 791px) {
     .max-width{
         padding: 0 50px;
+        margin-bottom: 20;
+    }
+    .home{
+        display: flex;
+        background: url("images/mobileBG.png") no-repeat center;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+        padding-bottom: 100%;
+    }
+   
+    .home .home-content .text-1{
+        font-size: 40px;
+        width:70%;
     }
 }
 @media (max-width: 947px){
     .menu-btn{
         display: block;
         z-index: 999;
+       
     }
     .menu-btn i.active:before{
         content: "\f00d";
