@@ -366,27 +366,34 @@ section .title::after{
     background: #23555e;
 }
 .skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 20%;
-}
-.skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
     width: 70%;
 }
+.skills-content .right .rn::before{
+    width: 75%;
+}
+.skills-content .right .css::before{
+    width: 70%;
+}
+.skills-content .right .mod::before{
+    width: 45%;
+}
+.skills-content .right .js::before{
+    width: 40%;
+}
+.skills-content .right .php::before{
+    width: 55%;
+}
+
 .skills-content .right .and::before{
     width: 40%;
+}
+.skills-content .right .mzic::before{
+    width: 85%;
 }
 
 /* teams section styling */
 .teams .title::after{
-    content: "Some of my work";
+    content: "My Work/Hobbies";
 }
 .teams .carousel .card{
     background: #222;
@@ -561,9 +568,8 @@ footer span a:hover{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
+        height: 300px;
         width: 350px;
-        background-color: white;
     }
 }
 
